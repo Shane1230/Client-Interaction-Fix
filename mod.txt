@@ -1,0 +1,22 @@
+{
+	"name" : "Client Interaction Fix",
+	"description" : "Fixed an issue when clients could not interact in some maps",
+	"author" : "Shane",
+	"Contact" : "https://steamcommunity.com/id/Shane1230/",
+	"version" : "1.0",
+	"priority": 1,
+	"hooks": [
+		{ 
+			"hook_id" : "lib/units/interactions/interactionext",
+			"script_path" : "CIF.lua"
+		}
+	],
+	"updates": [
+        		{
+		"identifier": "cif",
+		"host": {
+		"meta": "https://raw.githubusercontent.com/Shane1230/autoupdate/main/CIF"
+	 	}
+	}
+	]
+}
